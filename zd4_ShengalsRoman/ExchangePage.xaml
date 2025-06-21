@@ -1,0 +1,12 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd4_ShengalsRoman.ExchangePage"
+             Title="Курсы валют">
+    <StackLayout Padding="20">
+        <Label Text="Центробанк РФ:" FontAttributes="Bold" />
+        <Label Text="USD    80.000" FontAttributes="Bold" />
+        <Label Text="EUR    86.000" FontAttributes="Bold" />
+        <Label Text="Текущая дата:" FontAttributes="Bold" Margin="0,20,0,0"/>
+        <Label x:Name="dateLabel" FontAttributes="Bold" TextColor="Blue" />
+    </StackLayout>
+</ContentPage>
